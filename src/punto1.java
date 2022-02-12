@@ -1,13 +1,8 @@
-import java.util.Scanner;
-
 public class punto1 {
     public static void main(String[] args) {
-        Scanner numero1 = new Scanner(System.in);
-        System.out.println("Ingrese el primer numero");
-        double dato1 = numero1.nextDouble();
-        Scanner numero2 = new Scanner(System.in);
-        System.out.println("Ingrese el segundo numero");
-        double dato2 = numero2.nextDouble();
+        //Se declaran como double, por si el dato que se quiere con parte fraccionaria.
+        double dato1 = 15;
+        double dato2 = 15;
         if(dato1 > dato2){
             System.out.println("El dato: "+dato1+" es el numero mayor.");
         }else if (dato2 > dato1){
@@ -18,5 +13,4 @@ public class punto1 {
             System.out.println("Los datos ingresados no son validos");
         }
     }
-
 }
