@@ -13,7 +13,7 @@ public class punto5 {
 }
 /*
 Esta siguiente linea de codigo imprime solamente los numero pares
-        int num = 0;
+        int num = 1;
         while (num <= 100) {
             if(num % 2 == 0){
                 System.out.println(num);
@@ -24,7 +24,7 @@ Esta siguiente linea de codigo imprime solamente los numero pares
  */
 /*
 Esta siguiente linea de codigo imprime solamente los numero impares
-    int numero = 0;
+    int numero = 1;
     while(numero <= 100){
     if(numero % 2 != 0) {
         System.out.println(numero);
@@ -41,7 +41,7 @@ El siguiente codigo ya lo que hace, es que le da al usuario la oportunidad de qu
 
         int numElegido;
 
-        int numero = 0;
+        int numero = 1;
 
 
 
