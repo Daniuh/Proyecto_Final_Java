@@ -1,0 +1,7 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(İÚá8áÖÄ€ï/
+m	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(ÙóéÖûÿÿÿÿ8ëÖÄ€ï/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ğ–Ğúÿÿÿÿ8ïÖÄ€ï/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ëš¤éşÿÿÿÿ8ğÖÄ€ï/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÓŒôƒüÿÿÿÿ8ğÖÄ€ï/
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(´Á¹ßşÿÿÿÿ
