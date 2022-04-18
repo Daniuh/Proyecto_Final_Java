@@ -1,3 +1,7 @@
+package Punto17;
+
+import Punto17.Electrodomestico;
+
 public class Lavadora extends Electrodomestico {
 
     private final static int CARGA_DEF = 5;

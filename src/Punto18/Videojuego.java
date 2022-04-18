@@ -1,3 +1,5 @@
+package Punto18;
+
 public class Videojuego implements Entregable {
 
     private final static int HORAS_ESTIMADAS_DEF = 100;

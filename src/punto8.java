@@ -12,12 +12,13 @@ public class punto8 {
             case "Martes":
             case "Miercoles":
             case "Jueves":
-            case "Jiernes":
+            case "Viernes":
                 System.out.println("Es un dia laboral");
                 break;
             case "Sabado":
             case "Domingo":
                 System.out.println("Es un dia festivo");
+                break;
             default:
                 System.out.println("Introduce un dia de la semana y si lo hiciste, revisa que la inicial sea en mayuscula y lo demas en minuscula");
         }

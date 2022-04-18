@@ -1,3 +1,5 @@
+package Punto18;
+
 public class punto18 {
     public static void main(String[] args) {
 
@@ -48,10 +50,10 @@ public class punto18 {
 
         //Recorremos el array desde la posicion 1 (no 0), comparando el mayor con las posiciones del array
         for(int i=1;i<listaSeries.length;i++){
-            if(listaSeries[i].compareTo(serieMayor)==Serie.MAYOR){
+            if(listaSeries[i].compareTo(serieMayor)== Serie.MAYOR){
                 serieMayor=listaSeries[i];
             }
-            if(listaVideojuegos[i].compareTo(videojuegoMayor)==Videojuego.MAYOR){
+            if(listaVideojuegos[i].compareTo(videojuegoMayor)== Videojuego.MAYOR){
                 videojuegoMayor=listaVideojuegos[i];
             }
 

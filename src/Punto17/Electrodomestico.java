@@ -1,3 +1,5 @@
+package Punto17;
+
 public class Electrodomestico {
 
     protected final static String COLOR_DEF = "blanco";

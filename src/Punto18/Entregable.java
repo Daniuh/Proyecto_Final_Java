@@ -1,3 +1,5 @@
+package Punto18;
+
 public interface Entregable {
 
     public void entregar();

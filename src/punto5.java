@@ -4,8 +4,8 @@ public class punto5 {
         Este primer while imprime los numeros del 1 al 100.
         Haciendo alusión a imprimir numeros impares y pares.
          */
-        int num=1;
-        while (num<=100) {
+        int num = 1;
+        while (num <= 100) {
             System.out.println(num);
             num++;
         }

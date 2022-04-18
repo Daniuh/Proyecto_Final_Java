@@ -1,3 +1,5 @@
+package Punto18;
+
 public class Serie implements Entregable {
 
     private final static int NUM_TEMPORADAS_DEF = 3;
@@ -80,7 +82,7 @@ public class Serie implements Entregable {
     }
 
     public String toString() {
-        return "Informacion de la Serie: \n" +
+        return "Informacion de la Punto18.Serie: \n" +
                 "\tTitulo: " + titulo + "\n" +
                 "\tNumero de temporadas: " + numeroTemporadas + "\n" +
                 "\tGenero: " + genero + "\n" +

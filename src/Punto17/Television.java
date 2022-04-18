@@ -1,3 +1,7 @@
+package Punto17;
+
+import Punto17.Electrodomestico;
+
 public class Television extends Electrodomestico {
 
     private final static int RESOLUCION_DEF = 20;
