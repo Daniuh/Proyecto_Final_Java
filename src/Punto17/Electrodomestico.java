@@ -2,7 +2,7 @@ package Punto17;
 
 public class Electrodomestico {
 
-    protected final static String COLOR_DEF = "blanco";
+    protected final static String COLOR_DEFECTO = "blanco";
 
     protected final static char CONSUMO_ENERGETICO_DEF = 'F';
 
@@ -28,6 +28,7 @@ public class Electrodomestico {
 
             if (colores[i].equals(color)) {
                 encontrado = true;
+                break;
             }
 
         }
@@ -35,7 +36,7 @@ public class Electrodomestico {
         if (encontrado) {
             this.color = color;
         } else {
-            this.color = COLOR_DEF;
+            this.color = COLOR_DEFECTO;
         }
 
 
@@ -70,24 +71,12 @@ public class Electrodomestico {
     public double precioFinal() {
         double plus = 0;
         switch (consumoEnergetico) {
-            case 'A':
-                plus += 100;
-                break;
-            case 'B':
-                plus += 80;
-                break;
-            case 'C':
-                plus += 60;
-                break;
-            case 'D':
-                plus += 50;
-                break;
-            case 'E':
-                plus += 30;
-                break;
-            case 'F':
-                plus += 10;
-                break;
+            case 'A' -> plus += 100;
+            case 'B' -> plus += 80;
+            case 'C' -> plus += 60;
+            case 'D' -> plus += 50;
+            case 'E' -> plus += 30;
+            case 'F' -> plus += 10;
         }
 
         if (peso >= 0 && peso < 19) {
@@ -104,11 +93,11 @@ public class Electrodomestico {
     }
 
     public Electrodomestico() {
-        this(PRECIO_BASE_DEF, PESO_DEF, CONSUMO_ENERGETICO_DEF, COLOR_DEF);
+        this(PRECIO_BASE_DEF, PESO_DEF, CONSUMO_ENERGETICO_DEF, COLOR_DEFECTO);
     }
 
     public Electrodomestico(double precioBase, double peso) {
-        this(precioBase, peso, CONSUMO_ENERGETICO_DEF, COLOR_DEF);
+        this(precioBase, peso, CONSUMO_ENERGETICO_DEF, COLOR_DEFECTO);
     }
 
     public Electrodomestico(double precioBase, double peso, char consumoEnergetico, String color) {

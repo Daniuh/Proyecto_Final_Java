@@ -1,0 +1,12 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(üÑ¥
+g
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(öŞİ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(öŞİ
+I
+java:S3252"3Use static access with "java.util.Map" for "Entry".(øœšÏ
+l
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(ªë¤üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªë¤üÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(àñù
+a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Å ­e

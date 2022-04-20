@@ -1,29 +1,29 @@
 public class punto5 {
     public static void main(String[] args) {
         /*
-        Este primer while imprime los numeros del 1 al 100.
-        Haciendo alusión a imprimir numeros impares y pares.
+        Este primer while imprime los números del 1 al 100.
+        Haciendo alusión a imprimir números impares y pares.
          */
-        int num = 1;
-        while (num <= 100) {
-            System.out.println(num);
-            num++;
+        int numero = 1;
+        while (numero <= 100) {
+            System.out.println(numero);
+            numero++;
         }
     }
 }
 /*
-Esta siguiente linea de codigo imprime solamente los numero pares
-        int num = 1;
-        while (num <= 100) {
-            if(num % 2 == 0){
-                System.out.println(num);
+Esta siguiente linea de código imprime solamente los numero pares
+        int numero = 1;
+        while (numero <= 100) {
+            if(numero % 2 == 0){
+                System.out.println(numero);
             }
-            num++;
+            numero++;
         }
     }
  */
 /*
-Esta siguiente linea de codigo imprime solamente los numero impares
+Esta siguiente linea de código imprime solamente los numero impares
     int numero = 1;
     while(numero <= 100){
     if(numero % 2 != 0) {
@@ -33,13 +33,13 @@ Esta siguiente linea de codigo imprime solamente los numero impares
     }
  }
  /*
-El siguiente codigo ya lo que hace, es que le da al usuario la oportunidad de que le imprima o los numero pares o los impares del 1 al 100.
+El siguiente código ya lo que hace, es que le da al usuario la oportunidad de que le imprima o los numero pares o los impares del 1 al 100.
 
  public static void main(String[] args) {
 
         Scanner miScanner = new Scanner(System.in);
 
-        int numElegido;
+        int numeroElegido;
 
         int numero = 1;
 
@@ -51,9 +51,9 @@ El siguiente codigo ya lo que hace, es que le da al usuario la oportunidad de qu
 
                     + " pulse 2 para imprimir los números impares: ");
 
-            numElegido = miScanner.nextInt();
+            numeroElegido = miScanner.nextInt();
 
-            if(numElegido == 1){
+            if(numeroElegido == 1){
 
                 while(numero <= 100){
 
@@ -69,7 +69,7 @@ El siguiente codigo ya lo que hace, es que le da al usuario la oportunidad de qu
 
             }
 
-            if(numElegido == 2){
+            if(numeroElegido == 2){
 
                 while(numero <= 100){
 
@@ -85,7 +85,7 @@ El siguiente codigo ya lo que hace, es que le da al usuario la oportunidad de qu
 
             }
 
-        }while(numElegido != 1 && numElegido != 2);
+        }while(numeroElegido != 1 && numeroElegido != 2);
 
     }
  */

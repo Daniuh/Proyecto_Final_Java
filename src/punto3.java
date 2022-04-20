@@ -6,6 +6,7 @@ public class punto3 {
         System.out.println("Ingresa el radio");
         String radioString = dato1.nextLine();
         double radio = Double.parseDouble(radioString);
-        System.out.println("El área del circulo es: "+Math.PI * Math.pow (radio, 2));
+        System.out.println("El área del circulo es: "+ Math.PI * Math.pow(radio, 2));
+        dato1.close();
     }
 }

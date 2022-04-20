@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class punto6 {
     public static void main(String[] args) {
         /*
-        Igual que en el punto 5, en este primer metodo, lo que se hace es imprimir los numeros del 1 al 100.
-        haciendo alusión de que se imprimen los números impares y pares.
+        Igual que en el punto 5, en este primer método, lo que se hace es imprimir los números del 1 al 100.
+        Haciendo alusión de que se imprimen los números impares y pares.
          */
         int numero = 1;
         for (int i = 0; i <= 100; i ++){
@@ -15,7 +15,7 @@ public class punto6 {
 }
 
 /*
-Es este metodo, lo que hace es solo imprimir los numeros pares del 1 al 100
+Es este método, lo que hace es solo imprimir los números pares del 1 al 100
 
 int numero = 1;
         for (int i = 0; i <= 100; i ++){
@@ -26,7 +26,7 @@ int numero = 1;
         }
  */
 /*
-Este siguiente metodo imprime solamente los numero impares del 1 al 100
+Este siguiente método imprime solamente los numero impares del 1 al 100
 
 int numero = 1;
         for (int i = 0; i <= 100; i ++){
@@ -38,10 +38,10 @@ int numero = 1;
 
  */
 /*
-En el siguiente metodo ya lo que hace, es que le da al usuario la oportunidad de que imprima o los numero pares o los impares del 1 al 100.
+En el siguiente método ya lo que hace, es que le da al usuario la oportunidad de que imprima o los numero pares o los impares del 1 al 100.
 Scanner miScanner = new Scanner(System.in);
 
-        int numElegido;
+        int numeroElegido;
 
         int numero = 1;
 
@@ -51,9 +51,9 @@ Scanner miScanner = new Scanner(System.in);
 
             System.out.println("Pulse 1 para imprimir los números pares o pulse 2 para imprimir los números impares: ");
 
-            numElegido = miScanner.nextInt();
+            numeroElegido = miScanner.nextInt();
 
-            if(numElegido == 1){
+            if(numeroElegido == 1){
 
                 for (int i = numero; i <= 100; i ++){
 
@@ -69,7 +69,7 @@ Scanner miScanner = new Scanner(System.in);
 
             }
 
-            if(numElegido == 2){
+            if(numeroElegido == 2){
 
                 for(int i = numero; i <= 100; i ++){
 
@@ -85,5 +85,5 @@ Scanner miScanner = new Scanner(System.in);
 
             }
 
-        }while(numElegido != 1 && numElegido != 2);
+        }while(numeroElegido != 1 && numeroElegido != 2);
  */

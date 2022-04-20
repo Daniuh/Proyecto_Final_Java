@@ -82,7 +82,7 @@ public class Serie implements Entregable {
     }
 
     public String toString() {
-        return "Informacion de la Punto18.Serie: \n" +
+        return "Información de la Punto18.Serie: \n" +
                 "\tTitulo: " + titulo + "\n" +
                 "\tNumero de temporadas: " + numeroTemporadas + "\n" +
                 "\tGenero: " + genero + "\n" +

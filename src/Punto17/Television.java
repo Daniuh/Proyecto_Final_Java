@@ -1,7 +1,5 @@
 package Punto17;
 
-import Punto17.Electrodomestico;
-
 public class Television extends Electrodomestico {
 
     private final static int RESOLUCION_DEF = 20;
@@ -14,23 +12,22 @@ public class Television extends Electrodomestico {
         //Invocamos el método precioFinal del método padre
         double plus = super.precioFinal();
 
-        //Añadimos el codigo necesario
+        //Añadimos el código necesario
         if (resolucion > 40) {
             plus += precioBase * 0.3;
         }
         if (sintonizadorTDT) {
             plus += 50;
         }
-
         return plus;
     }
 
     public Television() {
-        this(PRECIO_BASE_DEF, PESO_DEF, CONSUMO_ENERGETICO_DEF, COLOR_DEF, RESOLUCION_DEF, false);
+        this(PRECIO_BASE_DEF, PESO_DEF, CONSUMO_ENERGETICO_DEF, COLOR_DEFECTO, RESOLUCION_DEF, false);
     }
 
     public Television(double precioBase, double peso) {
-        this(precioBase, peso, CONSUMO_ENERGETICO_DEF, COLOR_DEF, RESOLUCION_DEF, false);
+        this(precioBase, peso, CONSUMO_ENERGETICO_DEF, COLOR_DEFECTO, RESOLUCION_DEF, false);
     }
 
     public Television(double precioBase, double peso, char consumoEnergetico, String color, int resolucion, boolean sintonizadorTDT) {

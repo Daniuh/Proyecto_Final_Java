@@ -6,5 +6,6 @@ public class punto10 {
         System.out.println("Ingrese una frase");
         String frase = texto.nextLine();
         System.out.println(frase.replaceAll("\\s",""));
+        texto.close();
     }
 }

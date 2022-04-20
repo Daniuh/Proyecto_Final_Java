@@ -33,17 +33,17 @@ public class punto16 {
             Persona persona2 = new Persona(nombre, edad, sexo);
             Persona persona3 = new Persona(nombre, edad, sexo, peso, altura);
 
-            //Los datos que no esten completos los insertamos con los metodos set
-            persona1.setNombre("Laura");
-            persona1.setEdad(30);
+            //Los datos que no estén completos los insertamos con los métodos set
+            persona1.setNombre("Fernanda");
+            persona1.setEdad(20);
             persona1.setSexo('M');
-            persona1.setPeso(60);
-            persona1.setAltura(1.60);
+            persona1.setPeso(65);
+            persona1.setAltura(1.67);
 
             persona2.setPeso(90.5);
             persona2.setAltura(1.80);
 
-            //Usamos metodos para realizar la misma accion para cada objeto
+            //Usamos métodos para realizar la misma acción para cada objeto
             System.out.println("Persona1");
             MuestraMensajePeso(persona1);
             MuestraMayorDeEdad(persona1);
@@ -63,15 +63,10 @@ public class punto16 {
         public static void MuestraMensajePeso(Persona p) {
             int IMC = p.calcularIMC();
             switch (IMC) {
-                case Persona.PESO_IDEAL:
-                    System.out.println("La persona esta en su peso ideal");
-                    break;
-                case Persona.INFRAPESO:
-                    System.out.println("La persona esta por debajo de su peso ideal");
-                    break;
-                case Persona.SOBREPESO:
-                    System.out.println("La persona esta por encima de su peso ideal");
-                    break;
+                case Persona.PESO_IDEAL -> System.out.println("La persona esta en su peso ideal");
+                case Persona.PESO_BAJO -> System.out.println("La persona esta por debajo de su peso ideal");
+                case Persona.SOBREPESO -> System.out.println("La persona esta por encima de su peso ideal");
+                default -> System.out.println("I.M.C sin reconocer");
             }
         }
 
@@ -88,9 +83,9 @@ public class punto16 {
 }
 class Persona {
 
-    private final static char SEXO_DEF = 'H';
+    private final static char SEXO_DEFECTO = 'H';
 
-    public static final int INFRAPESO = -1;
+    public static final int PESO_BAJO = -1;
 
     public static final int PESO_IDEAL = 0;
 
@@ -109,7 +104,7 @@ class Persona {
     private double altura;
 
     public Persona() {
-        this("", 0, SEXO_DEF, 0, 0);
+        this("", 0, SEXO_DEFECTO, 0, 0);
     }
 
     public Persona(String nombre, int edad, char sexo) {
@@ -129,19 +124,19 @@ class Persona {
     private void comprobarSexo() {
 
         if (sexo != 'H' && sexo != 'M') {
-            this.sexo = SEXO_DEF;
+            this.sexo = SEXO_DEFECTO;
         }
     }
 
     private void generarDni() {
         final int divisor = 23;
 
-        int numDNI = ((int) Math.floor(Math.random() * (100000000 - 10000000) + 10000000));
-        int res = numDNI - (numDNI / divisor * divisor);
+        int numeroDNI = ((int) Math.floor(Math.random() * (100000000 - 10000000) + 10000000));
+        int res = numeroDNI - (numeroDNI / divisor * divisor);
 
         char letraDNI = generaLetraDNI(res);
 
-        DNI = Integer.toString(numDNI) + letraDNI;
+        DNI = Integer.toString(numeroDNI) + letraDNI;
     }
 
     private char generaLetraDNI(int res) {
@@ -175,21 +170,18 @@ class Persona {
     public int calcularIMC() {
         //Calculamos el peso de la persona
         double pesoActual = peso / (Math.pow(altura, 2));
-        //Segun el peso, devuelve un codigo
+        //Según el peso, devuelve un código
         if (pesoActual >= 20 && pesoActual <= 25) {
             return PESO_IDEAL;
         } else if (pesoActual < 20) {
-            return INFRAPESO;
+            return PESO_BAJO;
         } else {
             return SOBREPESO;
         }
     }
 
     public boolean esMayorDeEdad() {
-        boolean mayor = false;
-        if (edad >= 18) {
-            mayor = true;
-        }
+        boolean mayor = edad >= 18;
         return mayor;
     }
 
@@ -201,7 +193,7 @@ class Persona {
         } else {
             sexo = "mujer";
         }
-        return "Informacion de la persona:\n"
+        return "Información de la persona:\n"
                 + "Nombre: " + nombre + "\n"
                 + "Sexo: " + sexo + "\n"
                 + "Edad: " + edad + " años\n"

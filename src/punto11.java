@@ -25,7 +25,9 @@ public class punto11 {
             System.out.printf("Vocal: %s. Conteo: %d\n", entry.getKey(), entry.getValue());
         }
         System.out.println("Y tiene una longitud la frase de: "+ total);
+        longitud.close();
     }
+
     private static boolean esVocal(char letra) {
         return "aeiou".contains(String.valueOf(letra).toLowerCase());
     }

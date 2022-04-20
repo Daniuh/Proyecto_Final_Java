@@ -1,0 +1,22 @@
+
+i	java:S116"TRename this field "compaÃ±ia" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦óò
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ãŠ›’
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ãÒíÿÿÿÿÿ
+[
+java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(áãš«
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(€ÉÇ§ûÿÿÿÿ
+o	java:S100/"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü§¢®şÿÿÿÿ8ÿÉèª„0
+o	java:S1003"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ù¯éúÿÿÿÿ8‚Êèª„0
+W
+java:S1126C"AReplace this if-then-else statement by a single return statement.(ñ¾›ì
+p
+java:S1201a"UEither override Object.equals(Object), or rename the method to prevent any confusion.(ìßô¼ûÿÿÿÿ
+\
+java:S1126b"AReplace this if-then-else statement by a single return statement.(±²õ úÿÿÿÿ
+k	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ù¯éúÿÿÿÿ
+k	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÉ‘šıÿÿÿÿ
+k	java:S117p"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ææå”ùÿÿÿÿ
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(å•‹8¸óóöƒ0

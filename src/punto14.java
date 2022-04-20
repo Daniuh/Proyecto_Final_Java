@@ -8,5 +8,6 @@ public class punto14 {
         for (int i = respuesta; i <= 1000; i = i + 2){
             System.out.println(i);
         }
+        numero.close();
     }
 }

@@ -7,20 +7,11 @@ public class punto8 {
         System.out.println("Introduce un dia de la semana");
         String dia = semana.next();
 
-        switch(dia){
-            case "Lunes":
-            case "Martes":
-            case "Miercoles":
-            case "Jueves":
-            case "Viernes":
-                System.out.println("Es un dia laboral");
-                break;
-            case "Sabado":
-            case "Domingo":
-                System.out.println("Es un dia festivo");
-                break;
-            default:
-                System.out.println("Introduce un dia de la semana y si lo hiciste, revisa que la inicial sea en mayuscula y lo demas en minuscula");
+        switch (dia) {
+            case "Lunes", "Martes", "Miercoles", "Jueves", "Viernes" -> System.out.println("Es un dia laboral");
+            case "Sabado", "Domingo" -> System.out.println("Es un dia festivo");
+            default -> System.out.println("Introduce un dia de la semana y si lo hiciste, revisa que la inicial sea en mayúscula y lo demás en minúscula");
         }
+        semana.close();
     }
 }

@@ -36,7 +36,7 @@ public class punto17 {
         }
 
         //Mostramos los resultados
-        System.out.println("La suma del precio de los electrodomesticos es de "+sumaElectrodomesticos);
+        System.out.println("La suma del precio de los electrodomésticos es de "+sumaElectrodomesticos);
         System.out.println("La suma del precio de las lavadoras es de "+sumaLavadoras);
         System.out.println("La suma del precio de las televisiones es de "+sumaTelevisiones);
 

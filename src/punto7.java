@@ -9,5 +9,6 @@ public class punto7 {
             numero = dato.nextInt();
         } while (numero <= 0);
         System.out.println(numero);
+        dato.close();
     }
 }

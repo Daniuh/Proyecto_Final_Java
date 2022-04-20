@@ -1,0 +1,27 @@
+
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(î¹×è
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(±¹®
+Z
+java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(åëŸ&
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(£ıº 
+@
+java:S1197"*Move the array designators [] to the type.(ÔÎ ı
+7	java:S131I""Add a default case to this switch.(¡ùÉà
+i
+java:S1192"SUse already-defined constant 'COLOR_DEFECTO' instead of duplicating its value here.(ÔÎ ı
+P
+java:S1121J".Extract the assignment out of this expression.(çüßøÿÿÿÿ8ïâÖª„0
+K
+java:S1121K".Extract the assignment out of this expression.(æ÷Õ8ñâÖª„0
+P
+java:S1121L".Extract the assignment out of this expression.(ƒ¨Æ£şÿÿÿÿ8òâÖª„0
+K
+java:S1121M".Extract the assignment out of this expression.(øëÅ8óâÖª„0
+K
+java:S1121N".Extract the assignment out of this expression.(Ö—¶8öâÖª„0
+P
+java:S1121O".Extract the assignment out of this expression.(‚ìÏšüÿÿÿÿ8÷âÖª„0
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œ½éò8Çãîöƒ0

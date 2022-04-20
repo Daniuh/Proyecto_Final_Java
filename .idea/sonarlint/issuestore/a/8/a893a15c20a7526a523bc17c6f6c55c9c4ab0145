@@ -1,0 +1,37 @@
+
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ªÂŸŠÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(÷ÙÃ©şÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¨†‰´ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‚ŸÎ³ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÃÔŠøüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÏÙô¬
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(Ø—ö ÿÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(ÓıÒ‹
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(òŸ•öúÿÿÿÿ
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(²Ñªš
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(—Ø¢
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(¦ˆ©
+h	java:S100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı ˜›ÿÿÿÿÿ
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(ÿ‹¯£øÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(¥ñæÌùÿÿÿÿ
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(¸ş¬
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(÷«®Û
+h	java:S100I"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—äÓÿıÿÿÿÿ
+M	java:S106L"9Replace this use of System.out or System.err by a logger.(¤éR
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(ËÆùøÿÿÿÿ
+h	java:S116b"NRename this field "DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èüöšıÿÿÿÿ
+Z
+java:S1124V"EReorder the modifiers to comply with the Java Language Specification.(«·è(
+E
+java:S2140†")Use "java.util.Random.nextInt()" instead.(›…ÀÄûÿÿÿÿ
+A
+java:S1197"*Move the array designators [] to the type.(ì§­¼
+U
+java:S1117¾"9Rename "sexo" which hides the field declared at line 100.(½ŞÀªúÿÿÿÿ
+f	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¤¼é
+t
+java:S1488¸"]Immediately return this expression instead of assigning it to the temporary variable "mayor".(ò«Ü‡
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ªÂŸŠÿÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¶€¬¹ûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(öÎµáşÿÿÿÿ
