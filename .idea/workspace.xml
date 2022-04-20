@@ -5,40 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1516c7c-f959-48a4-a759-79d3f927e9bf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabajo de practica/Electrodomestico.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabajo de practica/Entregable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabajo de practica/Lavadora.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabajo de practica/Persona.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabajo de practica/Serie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabajo de practica/Television.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabajo de practica/Videojuego.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabajo de practica/punto15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Trabajo de practica/punto15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabajo de practica/punto16$PersonaApp_Scanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabajo de practica/punto16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabajo de practica/punto17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Trabajo de practica/punto18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Punto16/punto16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Punto16/punto16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Punto17/Electrodomestico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Punto17/Electrodomestico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Punto17/Lavadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Punto17/Lavadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Punto17/Television.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Punto17/Television.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Punto17/punto17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Punto17/punto17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Punto18/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Punto18/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Punto18/punto18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Punto18/punto18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/punto10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/punto10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/punto11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/punto11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/punto12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/punto12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/punto13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/punto13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/punto14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/punto14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/punto15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/punto15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/punto2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/punto2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/punto3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/punto3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/punto4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/punto4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/punto5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/punto5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/punto6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/punto6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/punto7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/punto7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/punto8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/punto8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Trabajo de practica.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
